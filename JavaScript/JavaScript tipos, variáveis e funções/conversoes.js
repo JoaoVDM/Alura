@@ -1,13 +1,14 @@
-// tipo de dado
-// booleanos
+// tipo de dado 
+// booleanos 
 
 // conversão implícita
 const numero = 456;
-const numeroString = Number("456");
+const numeroString = Number("456a");
 
 //Number()
 //String()
+console.log(numero + numeroString)
 
-console.log(numero + (numeroString));
+// conversão explícita
 
-// conversão explicita
+console.warn(new Error('oi'))
